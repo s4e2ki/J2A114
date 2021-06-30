@@ -167,7 +167,7 @@ address {
 .access-row {
   /* flexbox（横並びにする要素の親に指定） */
   display: -webkit-box;
-  display: -ms-inline-flexbox;
+  /* display: -ms-flexbox; */
   display: flex;
   -webkit-box-pack: justify;
   -ms-flex-pack: justify;
@@ -214,7 +214,7 @@ address {
 .footer-container {
   /* flexbox（横並びにする要素の親に指定） */
   display: -webkit-box;
-  display: -ms-inline-flexbox;
+  /* display: -ms-flexbox; */
   display: flex;
   width: 660px;
   margin: 0 auto;
@@ -278,9 +278,9 @@ address {
   right: 20px;
 }
 
-.menu-list li {
+/* .menu-list li {
   list-style: none;
-}
+} */
 
 .menu-list li::before {
   content: '';
